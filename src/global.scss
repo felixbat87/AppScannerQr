@@ -24,3 +24,28 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+
+
+
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+ 
+swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scanner-active {
+  --background: transparent;
+  --ion-background-color: transparent;
+}
+
+.texto{
+  display: none;
+}
