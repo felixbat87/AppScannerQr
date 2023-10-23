@@ -60,6 +60,11 @@ export class DataLocalService {
       console.log('URL QUE ABRIO : ',JSON.stringify(registro));
       break;
 
+      case 'geo':
+       
+       this.navCtrl.navigateForward(`/tabs/mapa/${registro.text}`);
+      break;
+
     }
 
   }
