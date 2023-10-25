@@ -24,6 +24,8 @@ export class Tab2Page {
 
   enviarCorreo(){
 
+    this.dataLocal.enviarCorreo();
+
   }
 
  
@@ -32,5 +34,7 @@ export class Tab2Page {
    this.dataLocal.abrirRegistro(registro);
 
   }
+
+ 
 
 }
